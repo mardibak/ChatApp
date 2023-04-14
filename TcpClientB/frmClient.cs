@@ -17,7 +17,7 @@ namespace TcpClientB
             tcpClient.Events.Connected += Events_Connected;
             tcpClient.Events.DataReceived += Events_DataReceived;
             tcpClient.Events.Disconnected += Events_Disconnected;
-            btnSend.Enabled = false;
+            //btnSend.Enabled = false;
         }
 
         private void Events_Connected(object? sender, ConnectionEventArgs e)
